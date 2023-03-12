@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+    
+ int num, res1, res2, res3, res4, res5, res6, res7, res8, res9, res10;
+    
+    printf("\t\tTabuada eletronica\n");
+    printf("Digite um numero inteiro: ");
+    scanf("%i", &num);
+    
+    res1 = num * 1;
+    res2 = num * 2;
+    res3 = num * 3;
+    res4 = num * 4;
+    res5 = num * 5;
+    res6 = num * 6;
+    res7 = num * 7;
+    res8 = num * 8;
+    res9 = num * 9;
+    res10 = num * 10;
+
+    printf("\n\t\tTabuada do %i\n", num);
+
+    printf("\n%i x 1 = %i\n", num, res1);
+    printf("%i x 2 = %i\n", num, res2);
+    printf("%i x 3 = %i\n", num, res3);
+    printf("%i x 4 = %i\n", num, res4);
+    printf("%i x 5 = %i\n", num, res5);
+    printf("%i x 6 = %i\n", num, res6);
+    printf("%i x 7 = %i\n", num, res7);
+    printf("%i x 8 = %i\n", num, res8);
+    printf("%i x 9 = %i\n", num, res9);
+    printf("%i x 10 = %i\n", num, res10);
+
+    return 0;
+}
